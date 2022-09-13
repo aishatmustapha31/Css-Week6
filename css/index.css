@@ -1,0 +1,202 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html,body{
+    height: 100%;
+}
+
+.header{
+    height: 10vh;
+    background: linear-gradient(to right,
+            rgb(91, 183, 232) 50%,
+            rgb(3, 97, 160));
+
+}
+
+.left-header{
+    width: 50%;
+    height: 80%;
+    float: left;
+    border: 1px solid gainsboro;
+    margin-top: 5px;
+    
+}
+
+.logo-panel{
+    width: 180px;
+    height: 80%;
+    background-color: gainsboro;
+    margin: 5px;
+    font-size:x-large;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px rgb(129, 228, 245);
+
+}
+
+.right-header{
+    width: 49%;
+    margin-top: 5px;
+    height: 80%;
+    border: 1px solid gainsboro;
+    float: left;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end ;
+}
+
+.social{
+    width: 30px;
+    height: 80%;
+    margin: 5px;
+    background-color: gainsboro;
+    float: left;
+    
+}
+
+.facebook{
+    background-image: url(../images/kindpng_227301.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.ig{
+    background-image: url(../images/logo-instagram-png-13547.png);
+    background-size:cover;
+    cursor: pointer;
+
+}
+
+.tiktok{
+    background-image: url(../images/kindpng_4364183.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.twitter{
+    background-image: url(../images/kindpng_745974.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.content{
+    height: 70vh;
+    width: 100%;
+    background-color: aliceblue;
+    overflow: auto;
+    margin: auto;
+    font-size: small;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    
+}
+
+.left-panel{
+    width: 20%;
+    min-height: 150px;
+    background-image: url(../images/pexels-farddin-protik-2106463.jpg);
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap ;
+    justify-content:left;
+
+}
+.left-panel:hover{
+    background-position: 50%;
+}
+.left-panel .left-panel-title{
+    height: 20px;
+    color: white;
+}
+
+.left-panel-content{
+    width: 20%;
+   min-height: 100px;
+    margin:left;
+    border: 1px solid black;
+    text-align:left ;
+    
+}
+.center-panel{
+    width: 30%;
+   min-height: 200px;
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+    padding-left: 5px;
+    margin: right;
+
+}
+
+.center-panel .box1{
+    min-height: 100px;
+    width: 150px;
+    background-image: url(../images/pexels-sahil-prajapati-974320.jpg);
+    background-size: cover;
+    margin: right;
+}
+.center-panel .box2{
+    width: 150px;
+    min-height: 100px;
+    background-image: url(../images/pexels-maycon-marmo-2873674.jpg);
+    background-size: cover;
+    margin: right;
+}
+.center-panel .box3{
+    width: 150px;
+    min-height: 100px;
+    background-image: url(../images/pexels-bhoopal-m-1446161.jpg);
+    background-size: cover;
+    margin: right;
+}
+.center-panel-title{
+    height: 50%;
+    color: white;
+}
+.center-panel-content{
+    width:150px;
+    margin: right;
+    border: 1px solid black;
+}
+
+.right-panel{
+    width: 30%;
+    min-height: 150px;
+    background-image: url(../images/pexels-cottonbro-6862365.jpg);
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap ;
+    
+}
+.right-panel-title{
+    height: 50%;
+    color: white;
+}
+.right-panel-content{
+    width: 30%;
+    min-height:150px ;
+    margin: right;
+    text-align:left;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height: 15vh;
+    background: linear-gradient(to right,
+            rgb(91, 183, 232) 50%,
+            rgb(3, 97, 160));
+}
