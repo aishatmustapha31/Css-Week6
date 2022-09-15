@@ -1,0 +1,294 @@
+
+html,body{
+    height: 100%;
+}
+
+.header{
+    height: 10vh;
+    background: linear-gradient(to right,
+            rgb(91, 183, 232) 50%,
+            rgb(3, 97, 160));
+
+}
+
+.left-header{
+    width: 50%;
+    height: 80%;
+    float: left;
+    border: 1px solid gainsboro;
+    margin-top: 5px;
+    
+}
+
+.logo-panel{
+    width: 180px;
+    height: 80%;
+    background-color: gainsboro;
+    margin: 5px;
+    font-size:x-large;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px rgb(129, 228, 245);
+
+}
+
+.right-header{
+    width: 49%;
+    margin-top: 5px;
+    height: 80%;
+    border: 1px solid gainsboro;
+    float: left;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end ;
+}
+
+.social{
+    width: 30px;
+    height: 80%;
+    margin: 5px;
+    background-color: gainsboro;
+    float: left;
+    
+}
+
+.facebook{
+    background-image: url(../images/kindpng_227301.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.ig{
+    background-image: url(../images/logo-instagram-png-13547.png);
+    background-size:cover;
+    cursor: pointer;
+
+}
+
+.tiktok{
+    background-image: url(../images/kindpng_4364183.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.twitter{
+    background-image: url(../images/kindpng_745974.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.content{
+    width: 100%;
+    min-height: 100px;
+    overflow: auto;
+    background-color: aliceblue;
+}
+
+.news{
+    width: 33%;
+    min-height: 450px;
+    border: 1px solid black;
+    float: left;   
+    }
+    .news-panel{
+        font-size: large;
+        text-align: center;
+    }
+    .news-container{
+    min-height:400px;
+    border: 1px dotted rgb(5, 136, 136);
+    margin: 5px;
+    
+    }
+
+    .news-item {
+        height:150px;
+        overflow: hidden;
+        text-align: justify;
+        font-size: smaller;
+        
+    }
+    .news-item h3{
+        font-size: medium;
+        text-align: center;
+        padding: 1px;
+        margin: 5px;
+    }
+    .img{
+        width: 100px;
+        margin: 5px;
+        float: left;
+    }
+    .img1{
+        width: 60px;
+        margin: 5px;
+        float: right;
+    }
+    .img2{
+        width: 100px;
+        margin: 5px;
+        float:right;
+    }
+    
+    .news-item div.news-foot{
+        height: 20px;
+        background-color: aqua;
+        border-bottom: 2px solid white;
+        display: flex;
+        justify-content: flex-end;
+        align-items:flex-end;
+        padding-right: 10px;
+
+    }
+    .news-item div.news-foot span{
+        color: white;
+        font-size: smaller;
+        margin-right: 20px;
+    }
+    .news-item div.news-foot a{
+        color: rgb(144, 6, 102);
+        font-size: smaller;
+        margin-right: 20px;
+    }
+
+
+
+
+.advertisement{
+    width: 33%;
+    min-height: 450px;
+    border: 1px solid black;
+    float: left;
+    
+}
+
+.ad-panel{
+    font-size: large;
+    text-align: center;
+}
+.ad-container{
+    min-height: 400px;
+    border: 1px dotted rgb(5, 136, 136);
+    margin: 5px;
+}
+
+.ad-item{
+    min-height: 150px;
+    overflow: hidden;
+    text-align: justify;
+    font-size: small;
+}
+
+.ad-item h3{
+    font-size: medium;
+    text-align: center;
+    margin: 5px;
+    padding: 1px;
+}
+
+.ad-item .ad-img{
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+}
+.ad-item .ad-img1{
+    width: 100px;
+    margin: 5px;
+    float:right;
+    margin-top: 20px;
+}
+
+.ad-item .ad-img2{
+    width: 100px;
+    margin: 5px;
+    float:left;
+    margin-top: 20px;
+}
+
+
+.ad-item .ad-foot{
+    height: 20px;
+        background-color: aqua;
+        border-bottom: 2px solid white;
+        display: flex;
+        justify-content: flex-end;
+        align-items:flex-end;
+        padding-right: 10px;
+
+}
+
+.ad-item .ad-foot span{
+    color: white;
+    font-size: smaller;
+    margin-right: 20px;
+}
+.ad-item .ad-foot a{
+    color: rgb(144, 6, 102);
+    font-size: smaller;
+    margin-right: 20px;
+}
+
+.sport{
+    width: 33%;
+    min-height: 450px;
+    border: 1px solid black;
+    float: left;
+    
+}
+
+.sport-panel{
+    font-size: medium;
+    text-align: center;
+}
+
+.sport-container{
+    min-height: 400px;
+    margin:6px;
+    border: 1px dotted rgb(5, 136, 136);
+    
+}
+.sport-item{
+    min-height: 150px;
+    text-align: justify;
+    overflow: hidden;
+    font-size: small;
+}
+.sport-container .sport-item h3{
+    font-size: large;
+    text-align: center;
+    margin: 5px;
+    padding: 1px;
+}
+.sport-item .sport-img{
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+}
+
+.sport-item .sport-foot{
+    height: 20px;
+    background-color: aqua;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    padding-right: 10px;
+
+}
+.sport-item .sport-foot span{
+    color: white;
+    font-size: smaller;
+    margin-right: 20px;
+}
+.sport-item .sport-foot a{
+    color: rgb(144, 6, 102);
+    font-size: smaller;
+    margin-right: 20px;
+}
+
+.footer{
+    height: 15vh;
+    background: linear-gradient(to right,
+            rgb(91, 183, 232) 50%,
+            rgb(3, 97, 160));
+}
