@@ -5,8 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transition</title>
+    <style>
+        .container{
+            width: 80%;
+            min-height: 400px;
+            overflow: auto;
+            margin: auto;
+        }
+        .box{
+            width: 150px;
+            height: 150px;
+            border: 1px solid rgb(200, 199, 199);
+            float: left;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .box1{
+            background-color: greenyellow;
+            transition-property: background-color;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+        }
+        .box1:hover{
+            background-color: rgb(250, 181, 5);
+
+        }
+        .box2{
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 2px 2px rgb(125, 103, 103);
+            cursor: pointer;
+            transition-duration: 2s;
+            transition: box-shadow 0.3s, background-color 2s, color black;
+        }
+        .box2:hover{
+            box-shadow: 4px 6px rgb(125, 103, 103);
+            background-color: rgb(101, 128, 152);
+            color: white;
+
+        }
+        .box3{
+            background-image: url(./images/pexels-farddin-protik-2106463.jpg);
+            background-size: cover;
+            transition: all 2s ease-out;
+            cursor: pointer;
+        }
+        .box3:hover{
+            background-image: url(./images/pexels-bhoopal-m-1446161.jpg);
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2">Heading</div>
+        <div class="box box3"></div>
+    </div>
 </body>
 </html>
